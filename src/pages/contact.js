@@ -6,7 +6,11 @@ export default function Contact() {
     
   <div>
     <Layout>
-    Ni kan nå oss på våran mail:	jojoit.contact@gmail.com
+    <div className="contactBox">
+      <div className="contactTextHeader">Kontaktuppgifter</div>
+      <div className="contactText">jojoit.contact@gmail.com  </div>
+      <div className="contactText">076-123 45 67</div>
+    </div>
     </Layout>
   </div>
   ) 

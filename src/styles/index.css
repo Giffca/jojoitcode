@@ -173,13 +173,28 @@ li {
     margin-top: 80px;
 }
 
-.bottomright {
-    position: absolute;
-    bottom:20px;
-    right:20px;
-    font-size: 26px;
+.contactBox{
+    position: relative;
+    top: 250px;
+    left: 500px;
+    width: 300px;
+
+    padding: 20px;
+    border: 2px solid #878787;
+    border-radius: 45px;
 }
 
+.contactText{
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.contactTextHeader{
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 16px;
+}
 
 span {
     width: 100%;
