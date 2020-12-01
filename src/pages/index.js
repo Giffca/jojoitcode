@@ -9,17 +9,19 @@ export default function Home() {
 
     <div className="startpage">
 
-    <div class="Iam">
+    <div className="Iam">
       <p>Vi kan</p>
-      <b>
-        <div class="innerIam">
-          React<br /> 
-          WordPress<br />
-          Bootstrap<br />
-          C++<br />
-          CSS/HTML
+      <div className="scrolling">
+        <div className="innerIam">
+          Webbutveckling<br /> 
+          Webbdesign<br />
+          Mjukvaruutveckling<br />
+          Databaser<br />
+          JavaScript Ramverk <br/>
+          WordPress
+
           </div>
-      </b>
+      </div>
     </div>
    
     

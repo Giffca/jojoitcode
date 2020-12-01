@@ -13,8 +13,12 @@ export default function Contact() {
       <li><h2 className="font-normal">Malins Garderob Huskvarna</h2> <a className="v2" href="https://www.malinsgarderob.com/" target="_blank" rel="noreferrer">https://www.malinsgarderob.com/</a> <br></br> Gjord med hjälp av WordPress.</li>
       <li>1</li>
       <li>2</li>
+      </ul>
+      <p className="left"> 2019 </p>
+      <ul className="center">
       <li>3</li>
-    </ul>
+      <li>4</li>
+      </ul>
     </div>
     </Layout>
   </div>
