@@ -35,6 +35,11 @@ body {
     scrollbar-color: #3d3d3d;
 }
 
+.flex {
+  display:flex;
+  justify-content: center;
+}
+
 .footer {
   bottom: -40px;
   height: 35px;
@@ -74,75 +79,6 @@ body {
     font-weight: normal;
 }
 
-/* Works */
-
-a.v2:link, a.v2:visited, a.v2:hover, a.v2:active { 
-  color: #3f48cc;
-}
-
-.center {
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-}
-
-.left {
-    position: sticky;
-    margin-top: 30px;
-    margin-left: 50px;
-    padding-bottom: 0px;
-    font-family: 'Quattrocento Sans', sans-serif;
-}
-
-h2 {
-    font-family: 'Raleway', sans-serif;
-    margin: 0;
-    padding: 0;
-    font-size: 30px;
-    line-height: 60px;
-}
-
-ul {
-    list-style-type: none;
-    padding: 0;
-    font-family: 'Quattrocento Sans', sans-serif;
-    font-size: 24px;
-    line-height: 60px;
-    margin-bottom: 80px;
-    margin-top: -40px;
-}
-
-li {
-    margin-top: 80px;
-}
-
-/* Kontakt */ 
-
-.contactBox{
-    position: relative;
-    top: 250px;
-    left: 500px;
-    width: 300px;
-    padding: 20px;
-    border: 2px solid #878787;
-    border-radius: 45px;
-    
-}
-
-.contactText{
-    font-size: 24px;
-    font-family: 'Quattrocento Sans', sans-serif;
-    text-align: center;
-    margin-bottom: 10px;
-}
-
-.contactTextHeader{
-    font-size: 28px;
-    font-family: 'Quattrocento Sans', sans-serif;
-    text-align: center;
-    margin-bottom: 16px;
-}
-
 /* NAV */
 .titel {
   font-family: 'Roboto', sans-serif;
@@ -165,7 +101,6 @@ li {
   font-family: 'Abhaya Libre', serif;
   font-size: 24px;
   line-height: 28px;
-  display: flex;
   align-items: center;
   color: #FFFFFF;
 }
@@ -199,7 +134,6 @@ li {
 }
 
 span {
-    width: 100%;
     height: 100%;
 }
 
@@ -212,6 +146,103 @@ p {
 a:link, a:visited, a:hover, a:active {
   text-decoration: none;
   color: #FFFFFF;
+}
+
+
+/* Works */
+
+a.v2:link, a.v2:visited, a.v2:hover, a.v2:active { 
+  color: #3f48cc;
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.left {
+    position: sticky;
+    margin-top: 25px;
+    margin-left: 50px;
+    padding-bottom: 0px;
+    font-family: 'Quattrocento Sans', sans-serif;
+}
+
+h2 {
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+    padding: 0;
+    font-size: 30px;
+    line-height: 60px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    font-family: 'Quattrocento Sans', sans-serif;
+    font-size: 24px;
+    line-height: 60px;
+    margin-top: -40px;
+}
+
+li {
+    margin-top: 60px;
+}
+
+.bottomfill{
+  padding-bottom: 20px;
+}
+
+.tooltip {
+  font-size: 20px;
+  text-decoration: underline dotted white !important;
+  margin-right: 20px;
+}
+
+.tooltip:hover .tooltipimage{
+  text-decoration: underline dotted white;
+  visibility: visible;
+  opacity:1;
+}
+
+.tooltip .tooltipimage {
+  visibility: hidden;
+  width: 600px;
+  border-radius: 6px;
+  position: absolute;
+  left:-50%;
+  top:20%;
+  z-index: 1;
+  opacity: 0;
+  transition: 0.8s;
+}
+
+/* Kontakt */ 
+
+.contactBox{
+    position: relative;
+    top: 250px;
+    left: 500px;
+    width: 300px;
+    padding: 20px;
+    border: 2px solid #878787;
+    border-radius: 45px;
+    
+}
+
+.contactText{
+    font-size: 24px;
+    font-family: 'Quattrocento Sans', sans-serif;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.contactTextHeader{
+    font-size: 28px;
+    font-family: 'Quattrocento Sans', sans-serif;
+    text-align: center;
+    margin-bottom: 16px;
 }
 
 /* Animation startsida */
