@@ -11,13 +11,11 @@ export default function Contact() {
     <ul className="center">
       <li><h2 className="font-normal">Denna sidan</h2> <a className="v2" href="https://github.com/Giffca/jojoitcode" target="_blank" rel="noreferrer">https://github.com/Giffca/jojoitcode</a> <br></br> Gjord med hjälp av Gatsby </li>
       <li><h2 className="font-normal">Malins Garderob Huskvarna</h2> <a className="v2" href="https://www.malinsgarderob.com/" target="_blank" rel="noreferrer">https://www.malinsgarderob.com/</a> <br></br> Gjord med hjälp av WordPress.</li>
-      <li>1</li>
-      <li>2</li>
       </ul>
       <p className="left"> 2019 </p>
       <ul className="center">
-      <li>3</li>
-      <li>4</li>
+      <li><h2 className="font-normal">ProteinBro</h2> <a className="v2" href="https://webbkurs.ei.hv.se/~tijo0010/wpTimmyCMS/" target="_blank" rel="noreferrer">https://webbkurs.ei.hv.se/~tijo0010/wpTimmyCMS/</a> <br></br> Skoluppgift gjord med hjälp av Elementor/WordPress </li>
+      <li><h2 className="font-normal">Natural Healing</h2> <a className="v2" href="https://webbkurs.ei.hv.se/~anjo0199/CMS200/" target="_blank" rel="noreferrer">https://webbkurs.ei.hv.se/~anjo0199/CMS200/</a> <br></br> Skoluppgift gjord med hjälp av Elementor/WordPress </li>
       </ul>
     </div>
     </Layout>
