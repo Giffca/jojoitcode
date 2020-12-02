@@ -7,7 +7,7 @@ export default function Contact() {
   <div>
     <Layout>
     <div className="contactBox">
-      <div className="contactTextHeader">Kontaktuppgifter</div>
+      <h2 className="center">Kontaktuppgifter</h2>
       <div className="contactText">jojoit.contact@gmail.com  </div>
       <div className="contactText">076-123 45 67</div>
     </div>

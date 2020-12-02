@@ -40,6 +40,23 @@ body {
   justify-content: center;
 }
 
+h2 {
+  font-family: 'Raleway', sans-serif;
+  margin: 0;
+  padding: 0;
+  font-size: 30px;
+  line-height: 50px;
+  font-weight: inherit;
+}
+
+h1 {
+  display: inherit;
+  font-size: inherit;
+  margin-block-start: inherit;
+  margin-block-end: inherit;
+  font-weight: inherit;
+}
+
 .footer {
   bottom: -40px;
   height: 35px;
@@ -77,6 +94,29 @@ body {
 .font-normal {
     font-style: normal;
     font-weight: normal;
+}
+
+/* ABOUT */
+
+.breadText{
+  font-size: 19px;
+  font-family: 'Quattrocento Sans', sans-serif;
+  text-align: left;
+  line-height: 24px;
+  margin-bottom: 10px;
+  padding: 20px;
+  text-align: justify;
+  text-justify: auto;
+}
+
+.bigger{
+  line-height: 30px;
+  font-size: 24px;
+}
+
+.smaller{
+  font-size: 18px;
+  color: #DFDFDF;
 }
 
 /* NAV */
@@ -127,7 +167,7 @@ body {
 
 }
 
-.nav-bar-buttons{
+.flex-evenly{
   display: flex;
   justify-content: space-evenly;
   width: 100%;
@@ -159,22 +199,15 @@ a.v2:link, a.v2:visited, a.v2:hover, a.v2:active {
     margin-left: auto;
     margin-right: auto;
     text-align: center;
+    justify-content: center;
 }
 
 .left {
     position: sticky;
-    margin-top: 25px;
+    margin-top: 20px;
     margin-left: 50px;
     padding-bottom: 0px;
     font-family: 'Quattrocento Sans', sans-serif;
-}
-
-h2 {
-    font-family: 'Raleway', sans-serif;
-    margin: 0;
-    padding: 0;
-    font-size: 30px;
-    line-height: 60px;
 }
 
 ul {
@@ -182,22 +215,22 @@ ul {
     padding: 0;
     font-family: 'Quattrocento Sans', sans-serif;
     font-size: 24px;
-    line-height: 60px;
+    line-height: 56px;
     margin-top: -40px;
 }
 
 li {
-    margin-top: 60px;
+    margin-top: 50px;
 }
 
 .bottomfill{
-  padding-bottom: 20px;
+  padding-bottom: 40px;
 }
 
 .tooltip {
   font-size: 20px;
   text-decoration: underline dotted white !important;
-  margin-right: 20px;
+  margin-right: 30px;
 }
 
 .tooltip:hover .tooltipimage{
@@ -228,21 +261,14 @@ li {
     padding: 20px;
     border: 2px solid #878787;
     border-radius: 45px;
-    
 }
 
 .contactText{
     font-size: 24px;
     font-family: 'Quattrocento Sans', sans-serif;
     text-align: center;
-    margin-bottom: 10px;
-}
-
-.contactTextHeader{
-    font-size: 28px;
-    font-family: 'Quattrocento Sans', sans-serif;
-    text-align: center;
-    margin-bottom: 16px;
+    margin-top: 5px;
+    margin-bottom: 8px;
 }
 
 /* Animation startsida */
