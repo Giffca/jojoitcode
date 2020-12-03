@@ -361,7 +361,7 @@ li {
 {
   .wrapper {
     margin: 0 auto;
-    max-width: 480;
+    max-width: 480px;
   }
 
   /* Startpage animation in 480px */
