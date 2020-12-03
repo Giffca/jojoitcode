@@ -355,3 +355,80 @@ li {
     60% { top: -194px; }
     75% { top: -242px; }
   }
+
+/* Media Queries 480px */
+@media only screen and (max-width: 480px) 
+{
+  .wrapper {
+    margin: 0 auto;
+    max-width: 480;
+  }
+
+  /* Startpage animation in 480px */
+  .Iam {
+    font-size: 34px;
+    padding-left: 50px;
+  }
+  .Iam .scrolling {
+    height: 35px;
+    top: 13px;
+  }
+
+  @keyframes move{
+      0%  { top: 0px; }
+      15% { top: -34px; }
+      30% { top: -72px; }
+      45% { top: -112px; }
+      60% { top: -148px; }
+      75% { top: -190px; }
+    }
+    @-webkit-keyframes move {
+      0%  { top: 0px; }
+      15% { top: -34px; }
+      30% { top: -72px; }
+      45% { top: -112px; }
+      60% { top: -148px; }
+      75% { top: -190px; }
+    }
+    @-moz-keyframes move {
+      0%  { top: 0px; }
+      15% { top: -34px; }
+      30% { top: -72px; }
+      45% { top: -112px; }
+      60% { top: -148px; }
+      75% { top: -190px; }
+    }
+    @-o-keyframes move {
+      0%  { top: 0px; }
+      15% { top: -34px; }
+      30% { top: -72px; }
+      45% { top: -112px; }
+      60% { top: -148px; }
+      75% { top: -190px; }
+    }
+    @keyframes move {
+      0%  { top: 0px; }
+      15% { top: -34px; }
+      30% { top: -72px; }
+      45% { top: -112px; }
+      60% { top: -148px; }
+      75% { top: -190px; }
+    }
+
+  /* Works in 480px */
+  .tooltip {
+    font-size: 16px;
+    margin-right: 20px;
+    padding-left: 10px;
+  }
+  .v2 {
+    font-size: 18px;
+  }
+
+  /* Contact in 480px */
+  .contactBox{
+    top: 150px;
+    left: 14%;
+  }
+
+}
