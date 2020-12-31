@@ -9,7 +9,7 @@ export default function Layout({children}){
         <div className="wrapper">
         <Navbar/>
     {children}
-    <Footer/>
     </div>
+    <Footer/>
     </div>
 }

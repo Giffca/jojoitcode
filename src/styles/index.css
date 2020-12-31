@@ -63,15 +63,20 @@ h1 {
 }
 
 .footer {
-  bottom: -40px;
   height: 35px;
-  width: 100%;
-  text-align: right;
-  position: absolute;
-  color: #000000;
-  font-family: 'Quattrocento Sans', sans-serif;
-  font-size: 14px;
-  line-height: 16px;
+  margin: 0 auto;
+  position: absolute; 
+  left: 0 ; right: 0; bottom: 0; 
+  display: flex;
+  justify-content: space-between;
+  width: 900px;
+  }
+
+footertext {
+    font-family: 'Quattrocento Sans', sans-serif;
+    font-size: 14px;
+    line-height: 16px;
+    color: #000000;
   }
 
 ::-webkit-scrollbar {
