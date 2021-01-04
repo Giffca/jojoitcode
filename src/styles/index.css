@@ -72,7 +72,7 @@ h1 {
   width: 900px;
   }
 
-footertext {
+.footertext {
     font-family: 'Quattrocento Sans', sans-serif;
     font-size: 14px;
     line-height: 16px;
@@ -137,10 +137,9 @@ footertext {
   line-height: 35px;
   color: #FFFFFF;
   text-align: left;
-  padding-left: 23px;
+  padding-left: 16px;
   margin: 0;
-  min-width: 324px;
-  margin-right: 120px;
+  min-width: 420px;
 }
 
 .nav-bar {

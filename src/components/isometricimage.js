@@ -4,7 +4,7 @@ import '../styles/isometricimage.css'
 
 export default function IsometricImage({children}){
     return (
-        <div class="image">{children}</div>
+        <div className="image">{children}</div>
 
     )
 }
