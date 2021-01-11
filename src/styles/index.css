@@ -64,19 +64,26 @@ h1 {
 
 .footer {
   height: 35px;
+  position: absolute;
+  background-color:  #252525;
+  bottom: 0; 
+  width: 100%;
+  box-shadow: 0 -4px 7px rgba(0,0,0,0.5);
+  }
+
+.footerwrapper{
   margin: 0 auto;
-  position: absolute; 
-  left: 0 ; right: 0; bottom: 0; 
+  width:900px;
   display: flex;
   justify-content: space-between;
-  width: 900px;
-  }
+}
 
 .footertext {
     font-family: 'Quattrocento Sans', sans-serif;
     font-size: 14px;
-    line-height: 16px;
-    color: #000000;
+    color: white;
+    position: relative;
+    bottom: -9px;
   }
 
 ::-webkit-scrollbar {
