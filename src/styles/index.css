@@ -7,17 +7,17 @@ body {
 }
 
 .background {
-    position: fixed;
+    position: absolute;
     z-index: -1;
     top:0;
     left:0;
-    height:100%;
+    min-height:100%;
     width:100%;
     background: linear-gradient(180deg, rgba(207,207,207,1) 15%, rgba(255,255,255,0.9332107843137255) 70%);
-}
+  }
 
 .wrapper {
-    margin: 10% auto;
+    margin: 7% auto;
     max-width: 960px;
     background-color: #101010;
     min-height: 594px;
@@ -26,9 +26,9 @@ body {
     }
 
 .scrollable {
-    overflow-y: scroll;
+    
     min-height: 518px;
-    max-height: 518px;
+    /*max-height: 518px;*/
     
     /* firefox settings */
     scrollbar-width: thin;
@@ -43,6 +43,7 @@ body {
 .preamble {
     padding-top: 20px;
     padding-left: 30px;
+    margin-bottom: 18px;
 }
 
 h2 {
@@ -245,7 +246,7 @@ li {
 }
 
 .bottomfill{
-  padding-bottom: 40px;
+  padding-bottom: 80px;
 }
 
 .tooltip {

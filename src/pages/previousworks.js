@@ -11,7 +11,7 @@ export default function Contact() {
     
   <div>
     <Layout>
-    <div className="scrollable">
+    <div className="scrollable bottomfill">
     <h2 className="preamble">Våra Verk</h2>
       <p className="left">2020</p>
     <ul className="center">
@@ -30,15 +30,15 @@ export default function Contact() {
     </li>
     </ul>
     <p className="left"> 2019 </p>
-    <ul className="center">
+    <ul className="center bottomfill">
     <li>
       <IsometricImage><a href="https://webbkurs.ei.hv.se/~tijo0010/wpTimmyCMS/" target="_blank" rel="noreferrer"><img alt="malinsgarderob" src={ProteinBro}></img></a></IsometricImage>
       <div className="pt"><h2 className="font-normal">ProteinBro</h2> Skoluppgift gjord med <br></br>Elementor/WordPress</div>
     </li>
 
-    <li>
+    <li className="bottomfill">
       <IsometricImage><a href="https://webbkurs.ei.hv.se/~anjo0199/CMS200/" target="_blank" rel="noreferrer"><img alt="malinsgarderob" src={NaturalHealing}></img></a></IsometricImage>
-      <div className="pt"><h2 className="font-normal">Natural Healing</h2> Skoluppgift gjord med <br></br>Elementor/WordPress</div>
+      <div className="pt bottomfill"><h2 className="font-normal">Natural Healing</h2> Skoluppgift gjord med <br></br>Elementor/WordPress</div>
     </li>
 
     </ul>
