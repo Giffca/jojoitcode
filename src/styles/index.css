@@ -23,17 +23,8 @@ body {
     min-height: 594px;
     position: relative;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 200px;
     }
-
-.scrollable {
-    
-    min-height: 518px;
-    /*max-height: 518px;*/
-    
-    /* firefox settings */
-    scrollbar-width: thin;
-    scrollbar-color: #3d3d3d;
-}
 
 .flex {
   display:flex;
@@ -63,10 +54,21 @@ h1 {
   font-weight: inherit;
 }
 
+.sitemap {
+  position: relative;
+  bottom: -9px;
+  display: flex;
+  justify-content: space-between;
+  width: 30%;
+  font-family: 'Quattrocento Sans', sans-serif;
+  font-size: 14px;
+}
+
+
 .footer {
   height: 35px;
   position: absolute;
-  background-color:  #252525;
+  background-color:  #302f2f;
   bottom: 0; 
   width: 100%;
   box-shadow: 0 -4px 7px rgba(0,0,0,0.5);
@@ -85,21 +87,6 @@ h1 {
     color: white;
     position: relative;
     bottom: -9px;
-  }
-
-::-webkit-scrollbar {
-    width: 14px;
-  }
-::-webkit-scrollbar-track {
-    background: black; 
-  }
-::-webkit-scrollbar-thumb {
-    background:#494949;
-    border-radius: 8px;
-    border:solid black 3px;
-  }
-::-webkit-scrollbar-thumb:hover {
-    background: #8f8f8f; 
   }
 
 
@@ -204,13 +191,6 @@ p {
 a:link, a:visited, a:hover, a:active {
   text-decoration: none;
   color: #FFFFFF;
-}
-
-
-/* Works */
-
-a.v2:link, a.v2:visited, a.v2:hover, a.v2:active { 
-  color: #3f48cc;
 }
 
 .center {

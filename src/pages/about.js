@@ -8,7 +8,7 @@ export default function About() {
     
   <div>
     <Layout>
-    <div className="scrollable">
+    <div>
     <h2 className="preamble">Om Oss</h2>
     <div className="flex bottomfill">
     <img src={img1} alt="kod"></img>

@@ -11,7 +11,7 @@ export default function Contact() {
     
   <div>
     <Layout>
-    <div className="scrollable bottomfill">
+    <div className="bottomfill">
     <h2 className="preamble">Våra Verk</h2>
       <p className="left">2020</p>
     <ul className="center">
