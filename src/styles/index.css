@@ -194,26 +194,26 @@ a:link, a:visited, a:hover, a:active {
 }
 
 .center {
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-    justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  justify-content: center;
 }
 
 .left {
-    position: sticky;
-    margin-left: 18%;
-    padding-bottom: 0px;
-    font-family: 'Quattrocento Sans', sans-serif;
+  position: sticky;
+  margin-left: 18%;
+  padding-bottom: 0px;
+  font-family: 'Quattrocento Sans', sans-serif;
 }
 
 ul {
-    list-style-type: none;
-    padding: 0;
-    font-family: 'Quattrocento Sans', sans-serif;
-    font-size: 22px;
-    line-height: 30px;
-    margin-top: -40px;
+  list-style-type: none;
+  padding: 0;
+  font-family: 'Quattrocento Sans', sans-serif;
+  font-size: 22px;
+  line-height: 30px;
+  margin-top: -40px;
 }
 
 .pt {
@@ -256,22 +256,59 @@ li {
 /* Kontakt */ 
 
 .contactBox{
-    position: relative;
-    top: 250px;
-    left: 500px;
-    width: 300px;
-    padding: 20px;
-    border: 2px solid #878787;
-    border-radius: 45px;
+  width: auto;
+  border-radius: 45px;
+  background-color: #252525;
+}
+.contactRightText{
+  font-size: 24px;
+  font-family: 'Quattrocento Sans', sans-serif;
+  text-align: center;
+  margin-top: 20px;
+  padding-bottom: 40px;
+}
+.contactWrapper{
+  display: flex;
+  font-size: 30px;
+  text-align: center;
+}
+.contactLeft{
+  /*background-color: #f1f1f1; */
+  padding: 50px;
+  flex: 50%;
+}
+.contactLeftText{
+  font-size: 20px;
+  margin-bottom: 30px;
+  font-family: 'Quattrocento Sans', sans-serif;
+}
+.contactLeftLinkedText{
+  font-family: 'Quattrocento Sans', sans-serif;
+  font-size: 26px;
+  padding-top: 40px;
+  margin-bottom: 20px;
+  font-style: italic;
+}
+.contactLeftHeader{
+  font-family: 'Quattrocento Sans', sans-serif;
+  font-size: 44px;
+  padding-top: 30px;
+  padding-bottom: 50px;
+}
+.contactRightHeader{
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.contactRight{
+  /*background-color: dodgerblue; */
+  padding: 50px;
+  flex: 50%;
+}
+.contactLink:hover {
+  font-size: 110%;
 }
 
-.contactText{
-    font-size: 24px;
-    font-family: 'Quattrocento Sans', sans-serif;
-    text-align: center;
-    margin-top: 5px;
-    margin-bottom: 8px;
-}
+
 
 /* Animation startsida */
 
