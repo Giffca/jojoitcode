@@ -117,12 +117,20 @@ h1 {
 
 .bigger{
   line-height: 30px;
-  font-size: 24px;
+  font-size: 26px;
 }
 
 .smaller{
   font-size: 18px;
   color: #DFDFDF;
+}
+.kunskap{
+  font-size: 30px;
+  font-style: italic;
+  line-height: 150%;
+}
+.names{
+  font-size: 30px;
 }
 
 /* NAV */
