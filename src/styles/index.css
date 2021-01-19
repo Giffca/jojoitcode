@@ -1,4 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre&family=Quattrocento+Sans&family=Roboto&family=Raleway&display=swap');
+
+html {
+  overflow-y: scroll;
+}
+
 body {
 	background: #000000;
 	color: white;
@@ -6,12 +11,12 @@ body {
 }
 
 .pageContainer {
+  width: 100%;
 	position: absolute;
 	z-index: -1;
 	top: 0;
 	left: 0;
 	min-height: 100%;
-	width: 100%;
 }
 
 .wrapper {
