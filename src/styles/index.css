@@ -137,12 +137,11 @@ h1 {
 
 .titel {
 	font-family: 'Roboto', sans-serif;
-	font-size: 30px;
-	line-height: 35px;
+  font-size: 30px;
 	color: #FFFFFF;
 	text-align: left;
 	padding-left: 16px;
-	margin: 0;
+	margin-top: 1rem;
 	min-width: 420px;
 }
 
@@ -151,18 +150,22 @@ h1 {
 }
 
 .nav-bar {
-	display: flex;
-	justify-content: flex-start;
-	align-content: flex-start;
 	background: #252525;
   height: 76px;
-  margin: auto;
-	font-family: 'Abhaya Libre', serif;
+  margin-bottom: 3rem;
+}
+
+.navwrapper {
+  margin: 0 auto;
+  width: 960px;
+  padding-top: 0.6rem;
+  display: flex;
+	justify-content: flex-start;
+  align-content: flex-start;
+  font-family: 'Abhaya Libre', serif;
 	font-size: 24px;
-	line-height: 28px;
 	align-items: center;
   color: #FFFFFF;
-  margin-bottom: 3rem;
 }
 
 .box-effect {
