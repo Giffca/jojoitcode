@@ -6,11 +6,11 @@ import "./fontawesome"
 import '../styles/index.css'
 
 export default function Layout({children}){
-    return <div className="background">
+    return <div className="pageContainer">
+    <Navbar/>
         <div className="wrapper">
-        <Navbar/>
-    {children}
-    </div>
+            {children}
+        </div>
     <Footer/>
     </div>
 }
