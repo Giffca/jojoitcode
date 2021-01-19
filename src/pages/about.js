@@ -17,9 +17,7 @@ export default function About() {
     </article></div>
     <div className="flex bottomfill">
     <article className="breadText"><h2>Våra Kunskaper</h2><br></br>Genom våra utbildningar så har vi fått en bred kunskap inom programmering, webbutveckling samt webbdesign. <br></br><br></br> <div className="flex-evenly"><p><span className="bigger kunskap"> Språk </span><br></br><span className="smaller"><FontAwesomeIcon icon={['fab', 'js']}/> JavaScript<br></br><FontAwesomeIcon icon={['fab', 'java']}/> Java<br></br><FontAwesomeIcon icon={['fab', 'python']}/> Python<br></br><FontAwesomeIcon icon={['fab', 'php']}/> PHP<br></br>C#<br></br>C++<br></br>SQL</span></p><p><span className="bigger kunskap"> Miljöer </span><br></br><span className="smaller"><FontAwesomeIcon icon={['fab', 'react']}/> React<br></br><FontAwesomeIcon icon={['fab', 'wordpress-simple']}/> WordPress<br></br><FontAwesomeIcon icon={['fab', 'node-js']}/> Node.js<br></br><FontAwesomeIcon icon={['fab', 'angular']}/> Angular<br></br>.NET<br></br>MySQL<br></br>Photoshop</span></p></div> <br></br>Vi strävar efter att konstant hålla oss uppdaterade och införskaffar därför hela tiden ny kunskap om relevanta miljöer och språk.</article><img src={img2} alt="kod"></img> </div> 
-    
-    <div className="bottomfill"><br></br><br></br><br></br><h2 className="center">Vi är tillgängliga för arbete som webmasters<br></br> samt letar efter spännande projekt att jobba inom.<br></br>Helst på distans.</h2></div>
-  
+    <div className="bottomfill"></div>
     </div>
     </Layout>
   </div>

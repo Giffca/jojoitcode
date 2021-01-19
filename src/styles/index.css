@@ -92,6 +92,10 @@ h1 {
 }
 
 .startpage {
+	background:#000000;
+}
+
+.startpagepicture {
 	min-height: 518px;
 	background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%), linear-gradient(180deg, rgba(0, 0, 0, 0.49) 17.71%, rgba(0, 0, 0, 0) 48.44%, rgba(0, 0, 0, 0.41) 75%), #7C52B0;
 	background-blend-mode: color-burn, normal, normal;
