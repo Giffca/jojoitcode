@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre&family=Quattrocento+Sans&family=Roboto&family=Raleway&display=swap');
 
 html {
-  overflow-y: scroll;
+	overflow-y: scroll;
 }
 
 body {
@@ -11,7 +11,7 @@ body {
 }
 
 .pageContainer {
-  width: 100%;
+	width: 100%;
 	position: absolute;
 	z-index: -1;
 	top: 0;
@@ -145,7 +145,7 @@ h1 {
 
 .titel {
 	font-family: 'Roboto', sans-serif;
-  font-size: 30px;
+	font-size: 30px;
 	color: #FFFFFF;
 	text-align: left;
 	padding-left: 16px;
@@ -159,21 +159,21 @@ h1 {
 
 .nav-bar {
 	background: #252525;
-  height: 76px;
-  margin-bottom: 3rem;
+	height: 76px;
+	margin-bottom: 3rem;
 }
 
 .navwrapper {
-  margin: 0 auto;
-  width: 960px;
-  padding-top: 0.6rem;
-  display: flex;
+	margin: 0 auto;
+	width: 960px;
+	padding-top: 0.6rem;
+	display: flex;
 	justify-content: flex-start;
-  align-content: flex-start;
-  font-family: 'Abhaya Libre', serif;
+	align-content: flex-start;
+	font-family: 'Abhaya Libre', serif;
 	font-size: 24px;
 	align-items: center;
-  color: #FFFFFF;
+	color: #FFFFFF;
 }
 
 .box-effect {
@@ -302,7 +302,6 @@ li {
 }
 
 .contactLeft {
-	/*background-color: #f1f1f1; */
 	padding: 50px;
 	flex: 50%;
 }
@@ -334,7 +333,6 @@ li {
 }
 
 .contactRight {
-	/*background-color: dodgerblue; */
 	padding: 50px;
 	flex: 50%;
 }
