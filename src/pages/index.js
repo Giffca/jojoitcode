@@ -14,7 +14,7 @@ export default function Home() {
 
     <h2 className="center">Vi kan</h2>
     <div>
-        <Slide easing="ease" autoplay="on">
+        <Slide easing="ease" autoplay="true">
           <div className="each-slide">
             <div>
               <span>Slide 1</span><br></br>

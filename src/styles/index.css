@@ -115,6 +115,16 @@ h1 {
 	padding-top: 50px;
   }
 
+  .each-slide span {
+	padding: 20px;
+	font-size: 20px;
+	text-align: center;
+  }
+  /* ARROWS */
+  .react-slideshow-container .default-nav{
+	  opacity: 10%;
+  }
+
 /* ABOUT */
 
 .breadText {
