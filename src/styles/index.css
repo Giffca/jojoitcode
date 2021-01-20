@@ -106,24 +106,6 @@ h1 {
 	font-style: normal;
 	font-weight: normal;
 }
-/* SLIDESHOW */
-.each-slide > div {
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	height: 150px;
-	padding-top: 50px;
-  }
-
-  .each-slide span {
-	padding: 20px;
-	font-size: 20px;
-	text-align: center;
-  }
-  /* ARROWS */
-  .react-slideshow-container .default-nav{
-	  opacity: 10%;
-  }
 
 /* ABOUT */
 
@@ -362,6 +344,18 @@ li {
 }
 
 /* Animation startsida */
+
+/* SLIDESHOW */
+
+.each-slide {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	height: 9rem;
+	margin-top: 3rem;
+  }
+
+/* golden ratio rectangle */
 
 .Iam {
     font-family: 'Quattrocento Sans', sans-serif;
