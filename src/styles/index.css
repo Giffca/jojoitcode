@@ -106,7 +106,14 @@ h1 {
 	font-style: normal;
 	font-weight: normal;
 }
-
+/* SLIDESHOW */
+.each-slide > div {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 150px;
+	padding-top: 50px;
+  }
 
 /* ABOUT */
 
@@ -427,6 +434,7 @@ li {
     60% { top: -194px; }
     75% { top: -242px; }
   }
+
 
 /* Media Queries 480px */
 @media only screen and (max-width: 480px) 
