@@ -10,26 +10,26 @@ export default function Home() {
   <div className="startpage">
     <Layout>
       <div className="startpagepicture">
-      <h2 className="center slideshowHeader">Kunskaper inom</h2>
-      <Slide easing="ease" arrows={false} duration={3000} transitionDuration={1000}>
-            <div className="each-slide">
-              <div className="slideshowText">Webbutveckling</div>
-            </div>
-            <div className="each-slide">
-              <div className="slideshowText">Databashantering </div>
-            </div>
-            <div className="each-slide">
-              <div className="slideshowText">Mjukvaruutveckling </div>
-            </div>
-            <div className="each-slide">
-              <div className="slideshowText">Webbdesign </div>
-            </div>
-            <div className="each-slide">
-              <div className="slideshowText">JavaScript Ramverk </div>
-            </div>
-            <div className="each-slide">
-              <div className="slideshowText">Content Management Systems</div>
-            </div>
+        <h2 className="center slideshowHeader">Kunskaper inom</h2>
+        <Slide easing="ease" arrows={false} pauseOnHover={false} canSwipe={false} duration={3000} transitionDuration={1000}>
+              <div className="each-slide">
+                <div className="slideshowText">Webbutveckling</div>
+              </div>
+              <div className="each-slide">
+                <div className="slideshowText">Webbdesign </div>
+              </div>
+              <div className="each-slide">
+                <div className="slideshowText">JavaScript Ramverk </div>
+              </div>
+              <div className="each-slide">
+                <div className="slideshowText">Content Management Systems</div>
+              </div>
+              <div className="each-slide">
+                <div className="slideshowText">Databashantering </div>
+              </div>
+              <div className="each-slide">
+                <div className="slideshowText">Mjukvaruutveckling </div>
+              </div>
         </Slide>
       </div>
 
@@ -46,7 +46,7 @@ export default function Home() {
       </div>
 
       <div className="bottomfill">
-          <Slide easing="ease" arrows={false} duration={4000} transitionDuration={1800}>
+          <Slide easing="ease" arrows={false} pauseOnHover={false} canSwipe={false} duration={4000} transitionDuration={1800}>
             <div className="each-slide">
               <FontAwesomeIcon icon={['fab', 'angular']} size="8x"/>
                 <FontAwesomeIcon icon={['fab', 'react']} size="8x"/>
