@@ -22,10 +22,14 @@ body {
 .wrapper {
 	margin: 0 auto;
 	max-width: 960px;
-	background-color: #101010;
 	position: relative;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 	margin-bottom: 200px;
+}
+
+.graycontainer {
+	background-color: #101010;
+	min-height: 518px;
 }
 
 .flex {
@@ -89,10 +93,6 @@ h1 {
 	color: white;
 	position: relative;
 	bottom: -0.7rem;
-}
-
-.startpage {
-	background:#000000;
 }
 
 .startpagepicture {

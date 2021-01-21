@@ -7,7 +7,7 @@ import "react-slideshow-image/dist/styles.css"
 export default function Home() {
   return (
   
-  <div>
+  <div className="startpage">
     <Layout>
     <div className="startpagepicture">
       <div className="Iam">
@@ -30,12 +30,12 @@ export default function Home() {
       
       
 
-    <div className="startpage"><br></br><br></br><br></br><h2 className="center">Vi är tillgängliga för arbete som webmasters<br></br> samt letar efter spännande projekt att jobba inom.<br></br>Helst på distans.</h2></div>
+    <div><br></br><br></br><br></br><h2 className="center">Vi är just nu tillgängliga för arbete<br></br> Små till Stora projekt.<br></br>Helst på distans.</h2></div>
     
 
 
 
-    <div className="startpage">
+    <div>
         <Slide easing="ease" arrows={false} duration={4000} transitionDuration={1800}>
           <div className="each-slide">
             <FontAwesomeIcon icon={['fab', 'angular']} size="8x"/>

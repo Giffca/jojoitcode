@@ -7,9 +7,10 @@ export default function Error() {
   <div>
     <Layout>
 
-
-    <div className="Iam">
-      <p>404 Page not found</p>
+    <div className="graycontainer">
+      <div className="Iam">
+        <p>404 Page not found</p>
+      </div>
     </div>
    
     

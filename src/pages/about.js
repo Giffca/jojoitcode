@@ -7,7 +7,7 @@ export default function About() {
   return (
   <div>
     <Layout>
-    <div>
+    <div className="graycontainer">
     <h2 className="preamble">Om Oss</h2>
     <div className="flex bottomfill">
     <img src={img1} alt="kod"></img>
