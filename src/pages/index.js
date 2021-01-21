@@ -10,19 +10,27 @@ export default function Home() {
   <div className="startpage">
     <Layout>
       <div className="startpagepicture">
-        <div className="Iam">
-          <p>Vi kan</p>
-          <div className="scrolling">
-            <div className="innerIam">
-              Webbutveckling<br /> 
-              Webbdesign<br />
-              Mjukvaruutveckling<br />
-              Databaser<br />
-              JavaScript Ramverk <br/>
-              WordPress
-              </div>
-          </div>
-        </div>
+      <h2 className="center slideshowHeader">Kunskaper inom</h2>
+      <Slide easing="ease" arrows={false} duration={3000} transitionDuration={1000}>
+            <div className="each-slide">
+              <div className="slideshowText">Webbutveckling</div>
+            </div>
+            <div className="each-slide">
+              <div className="slideshowText">Databashantering </div>
+            </div>
+            <div className="each-slide">
+              <div className="slideshowText">Mjukvaruutveckling </div>
+            </div>
+            <div className="each-slide">
+              <div className="slideshowText">Webbdesign </div>
+            </div>
+            <div className="each-slide">
+              <div className="slideshowText">JavaScript Ramverk </div>
+            </div>
+            <div className="each-slide">
+              <div className="slideshowText">Content Management Systems</div>
+            </div>
+        </Slide>
       </div>
 
       <div className="contactWrapper">

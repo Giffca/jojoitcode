@@ -357,7 +357,21 @@ li {
 	justify-content: space-around;
 	height: 9rem;
 	margin-top: 3rem;
-  }
+}
+
+.slideshowHeader{
+	font-size: 44px;
+	font-family: 'Quattrocento Sans', sans-serif;
+	text-shadow: 2px 2px rgb(41, 48, 48);
+	padding-top: 1.5em;
+}
+.slideshowText{
+	font-size: 54px;
+	font-weight: bold;
+	font-family: 'Raleway', sans-serif;
+	text-shadow: 2px 2px rgb(41, 48, 48);
+}
+
 
 /* golden ratio rectangle */
 
