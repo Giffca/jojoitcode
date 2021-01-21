@@ -23,13 +23,12 @@ body {
 	margin: 0 auto;
 	max-width: 960px;
 	position: relative;
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-	margin-bottom: 200px;
 }
 
 .graycontainer {
 	background-color: #101010;
 	min-height: 518px;
+	margin-bottom: 100px;
 }
 
 .flex {
@@ -121,19 +120,13 @@ h1 {
 }
 
 .bigger {
-	line-height: 30px;
+	line-height: 32px;
 	font-size: 26px;
 }
 
 .smaller {
 	font-size: 18px;
 	color: #DFDFDF;
-}
-
-.kunskap {
-	font-size: 30px;
-	font-style: italic;
-	line-height: 150%;
 }
 
 .names {
@@ -218,11 +211,24 @@ a:hover {
 	color: #dfdfdf;
 }
 
+/* works */
+
 .center {
 	margin-left: auto;
 	margin-right: auto;
 	text-align: center;
 	justify-content: center;
+}
+
+.overflow {
+	position:absolute;
+	margin-left: -35px;
+	margin-top: -20px;
+	white-space: nowrap; 
+}
+
+.tiltright {
+	margin-right: -100px;
 }
 
 .left {
