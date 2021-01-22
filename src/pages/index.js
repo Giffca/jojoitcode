@@ -33,7 +33,7 @@ export default function Home() {
         </Slide>
       </div>
 
-      <div className="contactWrapper">
+      <div className="contactWrapper greyBG">
         <div className="contactLeft">
         <h2 className="overflow">IT- och konsult-tjänster med fokus på webbteknik</h2>
           <div className="contactLeftText pt">Vi är just nu tillgängliga för arbete!<br></br> Små till Stora projekt.<br></br><br></br>Vi skapar, designar, lägger upp, underhåller och säljer hemsidor till privatpersoner så väl som företag.</div>
@@ -45,7 +45,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="bottomfill">
+      <div className="bottomfill greyBG">
           <Slide easing="ease" arrows={false} pauseOnHover={false} canSwipe={false} duration={4000} transitionDuration={1800}>
             <div className="each-slide">
               <FontAwesomeIcon icon={['fab', 'angular']} size="8x"/>

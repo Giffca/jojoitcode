@@ -6,7 +6,7 @@ html {
 
 body {
 	background: #000000;
-	color: white;
+	color:  rgb(228, 228, 228);
 	margin: 0;
 }
 
@@ -29,6 +29,10 @@ body {
 	background-color: #101010;
 	min-height: 518px;
 	margin-bottom: 100px;
+}
+
+.greyBG{
+	background-color: #101010;
 }
 
 .flex {
@@ -126,7 +130,6 @@ h1 {
 
 .smaller {
 	font-size: 18px;
-	color: #DFDFDF;
 }
 
 .names {
@@ -204,11 +207,11 @@ a:link,
 a:visited,
 a:active {
 	text-decoration: none;
-	color: #FFFFFF;
+	color:  rgb(228, 228, 228);
 }
 
 a:hover {
-	color: #dfdfdf;
+	color: #bdbdbd;
 }
 
 /* works */
@@ -364,12 +367,14 @@ li {
 	font-family: 'Quattrocento Sans', sans-serif;
 	text-shadow: 2px 2px rgb(41, 48, 48);
 	padding-top: 1.5em;
+	color: rgb(245, 245, 245);
 }
 .slideshowText{
 	font-size: 54px;
 	font-weight: bold;
 	font-family: 'Raleway', sans-serif;
 	text-shadow: 2px 2px rgb(41, 48, 48);
+	color: rgb(245, 245, 245);
 }
 
 
