@@ -8,7 +8,7 @@ export default function Contact() {
      
   <div>
     <Layout>
-    <div className="contactWrapper graycontainer">
+    <div className="contactWrapper">
       <div className="contactLeft">
         <h2 className="contactLeftHeader">Kontakta oss!</h2>
         <div className="contactLeftText">Vid funderingar eller för kostnadsförslag tveka inte på att höra av er.</div>
