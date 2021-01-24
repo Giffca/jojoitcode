@@ -57,6 +57,11 @@ h1 {
 	font-weight: inherit;
 }
 
+.font-normal {
+	font-style: normal;
+	font-weight: normal;
+}
+
 .sitemap {
 	position: relative;
 	bottom: -9px;
@@ -98,10 +103,12 @@ h1 {
 	background-blend-mode: color-burn, normal, normal;
 	border-radius: 2px;
 }
-
-.font-normal {
-	font-style: normal;
-	font-weight: normal;
+.topSlideWrapper{
+	margin-bottom: 30px;
+	margin-top: 90px;
+}
+.bottomSlideWrapper{
+ 	padding-bottom: 150px;
 }
 
 /* ABOUT */
@@ -254,7 +261,7 @@ li {
 }
 
 .bottomfill {
-	padding-bottom: 150px;
+	padding-bottom: 100px;
 }
 
 .tooltip {
@@ -339,6 +346,9 @@ li {
 	padding: 50px;
 	flex: 50%;
 }
+.contactPadding{
+	padding: 10% 0;
+}
 
 .contactLink:hover {
 	font-size: 110%;
@@ -371,92 +381,6 @@ li {
 	color: rgb(245, 245, 245);
 }
 
-
-/* golden ratio rectangle */
-
-.Iam {
-    font-family: 'Quattrocento Sans', sans-serif;
-    font-size: 44px;
-    color: #FFFFFF;
-    padding-left: 300px;
-    padding-top: 200px;
-  }
-.Iam p {
-    float: left;
-    margin-right: 0.3em;
-  }
-.Iam .scrolling {
-    float: left;
-    overflow: hidden;
-    position: relative;
-    height: 50px;
-    top: 18px;
-  }
-.Iam .innerIam {
-    display: inline-block;
-    color: #FFFFFF;
-    position: relative;
-    white-space: nowrap;
-    top: 0;
-    left: 0;
-  -webkit-animation:move 7.5s;
-     -moz-animation:move 7.5s;
-      -ms-animation:move 7.5s;
-       -o-animation:move 7.5s;
-          animation:move 7.5s;
-  -webkit-animation-iteration-count:infinite;
-     -moz-animation-iteration-count:infinite;
-      -ms-animation-iteration-count:infinite;
-       -o-animation-iteration-count:infinite;
-          animation-iteration-count:infinite;
-  -webkit-animation-delay:1s;
-     -moz-animation-delay:1s;
-      -ms-animation-delay:1s;
-       -o-animation-delay:1s;
-          animation-delay:1s;
-  }
-  @keyframes move{
-  0%  { top: 0px; }
-  15% { top: -48px; }
-  30% { top: -96px; }
-  45% { top: -146px; }
-  60% { top: -194px; }
-  75% { top: -242px; }
-  }
-  @-webkit-keyframes move {
-    0%  { top: 0px; }
-    15% { top: -48px; }
-    30% { top: -96px; }
-    45% { top: -146px; }
-    60% { top: -194px; }
-    75% { top: -242px; }
-  }
-  @-moz-keyframes move {
-    0%  { top: 0px; }
-    15% { top: -48px; }
-    30% { top: -96px; }
-    45% { top: -146px; }
-    60% { top: -194px; }
-    75% { top: -242px; }
-  }
-  @-o-keyframes move {
-    0%  { top: 0px; }
-    15% { top: -48px; }
-    30% { top: -96px; }
-    45% { top: -146px; }
-    60% { top: -194px; }
-    75% { top: -242px; }
-  }
-  @keyframes move {
-    0%  { top: 0px; }
-    15% { top: -48px; }
-    30% { top: -96px; }
-    45% { top: -146px; }
-    60% { top: -194px; }
-    75% { top: -242px; }
-  }
-
-
 /* Media Queries 480px */
 @media only screen and (max-width: 480px) 
 {
@@ -464,57 +388,6 @@ li {
     margin: 0 auto;
     max-width: 480px;
   }
-
-  /* Startpage animation in 480px */
-  .Iam {
-    font-size: 34px;
-    padding-left: 50px;
-  }
-  .Iam .scrolling {
-    height: 35px;
-    top: 13px;
-  }
-
-  @keyframes move{
-      0%  { top: 0px; }
-      15% { top: -34px; }
-      30% { top: -72px; }
-      45% { top: -112px; }
-      60% { top: -148px; }
-      75% { top: -190px; }
-    }
-    @-webkit-keyframes move {
-      0%  { top: 0px; }
-      15% { top: -34px; }
-      30% { top: -72px; }
-      45% { top: -112px; }
-      60% { top: -148px; }
-      75% { top: -190px; }
-    }
-    @-moz-keyframes move {
-      0%  { top: 0px; }
-      15% { top: -34px; }
-      30% { top: -72px; }
-      45% { top: -112px; }
-      60% { top: -148px; }
-      75% { top: -190px; }
-    }
-    @-o-keyframes move {
-      0%  { top: 0px; }
-      15% { top: -34px; }
-      30% { top: -72px; }
-      45% { top: -112px; }
-      60% { top: -148px; }
-      75% { top: -190px; }
-    }
-    @keyframes move {
-      0%  { top: 0px; }
-      15% { top: -34px; }
-      30% { top: -72px; }
-      45% { top: -112px; }
-      60% { top: -148px; }
-      75% { top: -190px; }
-    }
 
   /* Works in 480px */
   .tooltip {
@@ -531,5 +404,4 @@ li {
     top: 150px;
     left: 14%;
   }
-
 }
