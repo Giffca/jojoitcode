@@ -375,7 +375,7 @@ li {
 }
 .slideshowText{
 	font-size: 54px;
-	font-weight: bold;
+	font-weight: 500;
 	font-family: 'Raleway', sans-serif;
 	text-shadow: 2px 2px rgb(41, 48, 48);
 	color: rgb(245, 245, 245);
