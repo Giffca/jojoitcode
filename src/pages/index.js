@@ -23,7 +23,7 @@ export default function Home() {
                   <div className="slideshowText">JavaScript Ramverk </div>
                 </div>
                 <div className="each-slide">
-                  <div className="slideshowText">Content Management Systems</div>
+                  <div className="slideshowText">CMS</div>
                 </div>
                 <div className="each-slide">
                   <div className="slideshowText">Databashantering </div>
