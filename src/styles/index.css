@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre&family=Quattrocento+Sans&family=Roboto&family=Raleway&display=swap');
 
 html {
+	max-width: 100%;
+    overflow-x: hidden;
 	overflow-y: scroll;
 }
 
@@ -155,6 +157,7 @@ h1 {
 .nav-bar {
 	background: #252525;
 	height: 76px;
+	width: 100%;
 	margin-bottom: 3rem;
 }
 
@@ -262,29 +265,7 @@ li {
 	padding-bottom: 100px;
 }
 
-.tooltip {
-	font-size: 20px;
-	text-decoration: underline dotted white !important;
-	margin-right: 30px;
-}
 
-.tooltip:hover .tooltipimage {
-	text-decoration: underline dotted white;
-	visibility: visible;
-	opacity: 1;
-}
-
-.tooltip .tooltipimage {
-	visibility: hidden;
-	width: 600px;
-	border-radius: 6px;
-	position: absolute;
-	left: -50%;
-	top: 20%;
-	z-index: 1;
-	opacity: 0;
-	transition: 0.8s;
-}
 
 
 /* Kontakt */
@@ -383,25 +364,32 @@ li {
 /* Media Queries 480px */
 @media only screen and (max-width: 480px) 
 {
-  .wrapper {
+  	.wrapper {
     margin: 0 auto;
     max-width: 100%;
-  }
+  	}
 
-  .titel {
+  	.titel {
 	font-size: 26px;
-	padding-left: 1rem;
+	padding-left: 0.7rem;
 	margin-top: 1.3rem;
 	min-width: 0px;
-}
+	}
 
-  .nav-bar {
+  	.nav-bar {
 	margin-bottom: 1.5rem;
-}
+	}
+
 
 	.navwrapper {
 		width: 100vw;
 		min-width: 100vw;
+	}
+
+	.preamble {
+	padding-left: 0;
+	text-align: center;
+	font-size: 30px;
 	}
 
 	.footerwrapper {
@@ -485,15 +473,21 @@ li {
 		margin-top: 1rem;
 	}
   /* Works in 480px */
-  .tooltip {
-    font-size: 16px;
-    margin-right: 20px;
-    padding-left: 10px;
-  }
-  .v2 {
-    font-size: 18px;
-  }
 
+  .mobilebox {
+	float:left;
+	width: 100%;
+	padding-top: 0;
+	padding-bottom: 30px;
+}
+	ul {
+		float:none;
+		padding-bottom: 50px;
+	}
+
+	.mobilefill {
+		padding-bottom: 400px;
+	}
   /* Contact in 480px */
   .contactLeftHeader {
 	font-size: 34px;
