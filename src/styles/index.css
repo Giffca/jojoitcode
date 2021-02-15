@@ -124,6 +124,11 @@ h1 {
 	text-justify: auto;
 }
 
+.IMGsize {
+	min-width: 378px;
+	
+}
+
 .bigger {
 	line-height: 32px;
 	font-size: 26px;
@@ -367,6 +372,8 @@ li {
   	.wrapper {
     margin: 0 auto;
     max-width: 100%;
+	padding-left: 1%;
+	padding-right: 1%;
   	}
 
   	.titel {
@@ -388,6 +395,7 @@ li {
 
 	.preamble {
 	padding-left: 0;
+	padding-top: 0;
 	text-align: center;
 	font-size: 30px;
 	}
@@ -401,7 +409,7 @@ li {
 		padding-right: 1rem;
 	}
 	
-	.flex-evenly, .sitemap {
+	.nav, .sitemap {
 		display:none;
 	}
 
@@ -472,6 +480,47 @@ li {
 	.each-slide {
 		margin-top: 1rem;
 	}
+
+/* About in 480px */
+	.IMGsize {
+		min-width: 176px;
+		margin-top: 3.5rem;
+	}
+
+	.bottomfill {
+		padding-bottom: 0;
+	}
+
+	.breadText {
+		font-size: 14px;
+		line-height: 1.2rem;
+		margin-bottom: 0;
+		padding: 2%;
+
+		text-align:left;
+	}
+	
+	.mobilefillshort {
+		padding-bottom: 100px;
+	}
+
+	.bigger {
+		line-height: 1rem;
+		font-size: 17px;
+	}
+	
+	.smaller {
+		font-size: 12px;
+	}
+	
+	.names {
+		font-size: 17px;
+		position:absolute;
+		margin-left: -20vw;
+		white-space: nowrap; 
+	}
+
+
   /* Works in 480px */
 
   .mobilebox {
@@ -488,6 +537,7 @@ li {
 	.mobilefill {
 		padding-bottom: 400px;
 	}
+	
   /* Contact in 480px */
   .contactLeftHeader {
 	font-size: 34px;
@@ -508,6 +558,7 @@ li {
 
 .contactPadding{
 	padding: 0;
+	padding-bottom: 1.5rem;
 }
 
 .contactRight {
