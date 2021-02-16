@@ -520,49 +520,77 @@ li {
 		white-space: nowrap; 
 	}
 
-
   /* Works in 480px */
 
-  .mobilebox {
-	float:left;
-	width: 100%;
-	padding-top: 0;
-	padding-bottom: 30px;
-}
+  	.mobilebox {
+		float:left;
+		width: 100%;
+		padding-top: 0;
+		padding-bottom: 30px;
+	}
 	ul {
 		float:none;
 		padding-bottom: 50px;
 	}
-
 	.mobilefill {
 		padding-bottom: 400px;
 	}
 	
   /* Contact in 480px */
-  .contactLeftHeader {
-	font-size: 34px;
-	padding-top: 1rem;
-	padding-bottom: 1rem;
+  	.contactLeftHeader {
+		font-size: 34px;
+		padding-top: 1rem;
+		padding-bottom: 1rem;
+	}
+	.contactLeftLinkedText {
+		font-size: 22px;
+		padding-top: 1.5rem;
+		margin-bottom: 1rem;
+	}
+	.contactRightHeader {
+		padding-top: 1rem;
+		padding-bottom: 1rem;
+	}
+	.contactPadding{
+		padding: 0;
+		padding-bottom: 1.5rem;
+	}
+	.contactRight {
+		padding: 2.5rem;
+	}	
 }
 
-.contactLeftLinkedText {
-	font-size: 22px;
-	padding-top: 1.5rem;
-	margin-bottom: 1rem;
-}
+/* Media Queries 414px-375px */
+@media only screen and (max-width: 414px) 
+{
+	/* startpage in 414px-375px*/
+	.startpagepicture {
+		min-height: 232px;
+	}
+	.slideshowHeader{
+		font-size: 28px;
+	}
+	.slideshowText{
+		font-size: 35px;
+	}
+	.contactLeftText {
+		font-size: 18px;
+	}
+	.contactLeft{
+		max-width: 100%;
+	}
+	.overflow {
+		margin-left: 0px;
+	}
 
-.contactRightHeader {
-	padding-top: 1rem;
-	padding-bottom: 1rem;
-}
+	/* About in 414px-375px */
+	.IMGsize {
+		min-width: 156px;
+	}
+	.names {
+		margin-left: -37vw;
+	}
 
-.contactPadding{
-	padding: 0;
-	padding-bottom: 1.5rem;
-}
-
-.contactRight {
-	padding: 2.5rem;
-}
-
+	/* Works in 414px-375px */
+	
 }
