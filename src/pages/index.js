@@ -20,10 +20,10 @@ export default function Home() {
                   <div className="slideshowText">Webbdesign </div>
                 </div>
                 <div className="each-slide">
-                  <div className="slideshowText">JavaScript Ramverk </div>
+                  <div className="slideshowText">WordPress</div>
                 </div>
                 <div className="each-slide">
-                  <div className="slideshowText">CMS</div>
+                  <div className="slideshowText">JavaScript Ramverk</div>
                 </div>
                 <div className="each-slide">
                   <div className="slideshowText">Databashantering </div>
@@ -40,8 +40,9 @@ export default function Home() {
           <div className="contactLeftText pt">Vi är just nu tillgängliga för arbete!<br></br> Små till Stora projekt.<br></br><br></br>Vi skapar, designar, lägger upp, underhåller och säljer hemsidor till privatpersoner så väl som företag.</div>
         </div>
         <div className="contactLeft tiltright">
+          <br></br><br></br>
             <a href="mailto:jojoit.contact@gmail.com"> <FontAwesomeIcon icon={['fas', 'envelope']} size="2x"/><div className="contactRightText">jojoit.contact@gmail.com</div></a>
-            <a href="https://se.linkedin.com/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><FontAwesomeIcon icon={['fab', 'linkedin']} size="2x"/><div className="contactRightText">JoJo IT</div></a>
+            {/* <a href="https://se.linkedin.com/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><FontAwesomeIcon icon={['fab', 'linkedin']} size="2x"/><div className="contactRightText">JoJo IT</div></a> */}
         </div>
       </div>
 

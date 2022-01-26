@@ -37,7 +37,6 @@ body {
 }
 
 .preamble {
-	padding-top: 20px;
 	padding-left: 30px;
 	margin-bottom: 18px;
 }
@@ -66,7 +65,7 @@ h1 {
 
 .sitemap {
 	position: relative;
-	bottom: -9px;
+	bottom: -0.7rem;
 	display: flex;
 	justify-content: space-between;
 	width: 30%;
@@ -96,6 +95,8 @@ h1 {
 	font-size: 14px;
 	color: white;
 	position: relative;
+	padding-left: 1%;
+	padding-right: 1%;
 	bottom: -0.7rem;
 }
 
@@ -200,9 +201,6 @@ h1 {
 	width: 100%;
 }
 
-span {
-	height: 100%;
-}
 
 p {
 	padding-top: 14px;
@@ -310,7 +308,7 @@ li {
 	font-family: 'Quattrocento Sans', sans-serif;
 	font-size: 26px;
 	padding-top: 40px;
-	margin-bottom: 20px;
+	margin-bottom: 14px;
 	font-style: italic;
 }
 
@@ -332,6 +330,11 @@ li {
 }
 .contactPadding{
 	padding: 10% 0;
+}
+
+.contactLink{
+	padding-left: 3%;
+	padding-right: 3%;
 }
 
 .contactLink:hover {
@@ -366,8 +369,32 @@ li {
 	color: rgb(245, 245, 245);
 }
 
+
+@media only screen and (max-width: 900px) 
+{
+	.flex-evenly{
+		width:40%;
+	}
+
+	.footerwrapper{
+		width: 100%;
+	}
+
+	.footertext{
+		padding-left: 4%;
+		padding-right: 4%;
+	}
+}
+
+@media only screen and (max-width: 810px) 
+{
+	.titel{
+		min-width:20%;
+	}
+}
+
 /* Media Queries 480px */
-@media only screen and (max-width: 480px) 
+@media only screen and (max-width: 700px) 
 {
   	.wrapper {
     margin: 0 auto;
@@ -402,11 +429,7 @@ li {
 
 	.footerwrapper {
 		width: 100vw;
-	}
-
-	.footertext {
-		padding-left: 1rem;
-		padding-right: 1rem;
+		bottom: 0;
 	}
 	
 	.nav, .sitemap {
@@ -446,10 +469,8 @@ li {
 	}
 
 	.tiltright {
-		display: flex;
-		justify-content: space-around;
 		margin-right: 0px;
-		margin-top: 1rem;
+		margin-top: -4rem;
 	}
 
 	.contactLeftText {
@@ -563,6 +584,9 @@ li {
 /* Media Queries 414px-375px */
 @media only screen and (max-width: 414px) 
 {
+	.footer {
+		bottom: 0;
+	}
 	/* startpage in 414px-375px*/
 	.startpagepicture {
 		min-height: 232px;

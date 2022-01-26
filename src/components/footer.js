@@ -8,10 +8,10 @@ export default function Footer(){
             <div className="sitemap">
                 <Link to ={`/`}>Hem</Link>
                 <Link to ={`/about`}>Om oss</Link>
-                <Link to ={`/previousworks`}>Våra verk</Link>
+                {/* <Link to ={`/previousworks`}>Våra verk</Link> */}
                 <Link to ={`/contact`}>Kontakt</Link>
             </div>
-            <div className="footertext">JoJo IT Handelsbolag © 2021</div>
+            <div className="footertext">JoJo IT Handelsbolag © 2022</div>
         </div>
          </footer>
 }
