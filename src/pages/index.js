@@ -37,7 +37,7 @@ export default function Home() {
       <div className="contactWrapper">
         <div className="contactLeft">
         <h2 className="overflow">IT- och konsult-tjänster med fokus på webbteknik</h2>
-          <div className="contactLeftText pt">Vi är just nu tillgängliga för arbete!<br></br> Små till Stora projekt.<br></br><br></br>Vi skapar, designar, lägger upp, underhåller och säljer hemsidor till privatpersoner så väl som företag.</div>
+          <div className="contactLeftText pt">Vi är just nu tillgängliga för arbete!<br></br> Små till mellanstora projekt.<br></br><br></br>Vi kan skapa, designa, fixa hosting, sköta underhåll, felsöka samt uppgradera sidor. Till privatpersoner så väl som företag.</div>
         </div>
         <div className="contactLeft tiltright">
           <br></br><br></br>

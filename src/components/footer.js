@@ -11,7 +11,7 @@ export default function Footer(){
                 {/* <Link to ={`/previousworks`}>Våra verk</Link> */}
                 <Link to ={`/contact`}>Kontakt</Link>
             </div>
-            <div className="footertext">JoJo IT Handelsbolag © 2022</div>
+            <div className="footertext">JoJo IT Handelsbolag © {new Date().getFullYear()}</div>
         </div>
          </footer>
 }

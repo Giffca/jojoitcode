@@ -6,9 +6,9 @@ import "./fontawesome"
 import '../styles/index.css'
 
 export default function Layout({children}){
-    return <div className="pageContainer">
+    return <div className="pageContainer" id="outer-container">
     <Navbar/>
-        <div className="wrapper">
+        <div className="wrapper" id="page-wrap">
             {children}
         </div>
     <Footer/>

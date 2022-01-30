@@ -22,7 +22,7 @@ export default function Contact() {
         <div className="contactBox">
           <h2 className="contactRightHeader">Kontaktuppgifter</h2>
           <a href="mailto:jojoit.contact@gmail.com"><FontAwesomeIcon icon={['fas', 'envelope']} size="2x"/><div className="contactRightText">jojoit.contact@gmail.com</div></a>
-          <a href="tel:076-123457"><FontAwesomeIcon icon={['fas', 'phone']} size="2x"/><div className="contactRightText"> 076-219 69 88</div></a>
+          <span><FontAwesomeIcon icon={['fas', 'phone']} size="2x"/><div className="contactRightText"> 076-219 69 88</div></span>
         </div>
       </div>
     </div>

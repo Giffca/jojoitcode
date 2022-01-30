@@ -180,6 +180,10 @@ h1 {
 	color: #FFFFFF;
 }
 
+.bm-burger-button {
+	display:none;
+}
+
 .box-effect {
 	width: 150px;
 	box-shadow: 2px 2px #1D1D1D, 3px 3px #1D1D1D, 4px 4px #1D1D1D;
@@ -396,6 +400,10 @@ li {
 /* Media Queries 480px */
 @media only screen and (max-width: 700px) 
 {
+	.pageContainer{
+		width:100%;
+	}
+
   	.wrapper {
     margin: 0 auto;
     max-width: 100%;
@@ -414,6 +422,9 @@ li {
 	margin-bottom: 1.5rem;
 	}
 
+	.bm-burger-button {
+		display:inline;
+	}
 
 	.navwrapper {
 		width: 100vw;
@@ -558,11 +569,18 @@ li {
 	}
 	
   /* Contact in 480px */
+
+  .contactLeftText{
+	padding-left: 3rem;
+	padding-right: 3rem;
+}
+
   	.contactLeftHeader {
 		font-size: 34px;
 		padding-top: 1rem;
 		padding-bottom: 1rem;
 	}
+
 	.contactLeftLinkedText {
 		font-size: 22px;
 		padding-top: 1.5rem;
