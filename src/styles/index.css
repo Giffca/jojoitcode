@@ -546,9 +546,8 @@ li {
 	
 	.names {
 		font-size: 17px;
-		position:absolute;
-		margin-left: -20vw;
 		white-space: nowrap; 
+		position:relative;
 	}
 
   /* Works in 480px */
@@ -629,7 +628,8 @@ li {
 		min-width: 156px;
 	}
 	.names {
-		margin-left: -45vw;
+		position:relative;
+		margin-left: -12vh;
 	}
 
 	/* Works in 414px-375px */
