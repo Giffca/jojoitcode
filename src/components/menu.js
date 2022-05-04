@@ -11,11 +11,11 @@ var styles = {
       top: '28px'
     },
     bmBurgerBars: {
-      background: '#f8f8f8',
+      background: '#fff',
       height: '3px'
     },
     bmBurgerBarsHover: {
-      background: '#ffffff'
+      background: '#fff'
     },
     bmCrossButton: {
         top: '22px',
