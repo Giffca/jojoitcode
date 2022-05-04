@@ -15,6 +15,11 @@ import { Slide } from "react-slideshow-image";
 
 
 export default function Home() {
+
+  window.onload = () => { 
+    let elements = document.getElementsByClassName('react-slideshow-container');
+    Array.prototype.forEach.call(elements, function(element){element.style.opacity='1';});
+  }
   return (
   
   <div className="startpage">

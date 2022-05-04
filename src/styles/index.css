@@ -349,8 +349,12 @@ li {
 
 /* SLIDESHOW */
 
+.react-slideshow-container {
+	opacity:0;
+}
+
 .each-slide {
-	display: flex;
+	display:flex;
 	align-items: center;
 	justify-content: space-around;
 	height: 9rem;
