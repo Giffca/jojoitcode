@@ -375,10 +375,6 @@ li {
 
 @media only screen and (max-width: 900px) 
 {
-	.flex-evenly{
-		width:100%;
-	}
-
 	.footerwrapper{
 		width: 100%;
 	}
@@ -387,12 +383,24 @@ li {
 		padding-left: 4%;
 		padding-right: 4%;
 	}
+
+	.nav{
+		width: 40%;
+	}
 }
 
 @media only screen and (max-width: 810px) 
 {
 	.titel{
-		min-width:20%;
+		width:50%;
+		min-width: 25%;
+		white-space: nowrap;
+	}
+
+	.nav{
+		width: 90%;
+		justify-content: flex-start;
+		gap:4%;
 	}
 }
 
