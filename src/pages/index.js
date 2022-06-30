@@ -8,18 +8,16 @@ import "react-slideshow-image/dist/styles.css"
 import { config } from '@fortawesome/fontawesome-svg-core';
 config.autoAddCss = false; /* eslint-disable import/first */
 
-import Layout from "../components/layout"
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+import Layout from "../components/layout";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Slide } from "react-slideshow-image";
 
 
-
 export default function Home() {
-
-  window.onload = () => { 
-    let elements = document.getElementsByClassName('react-slideshow-container');
-    Array.prototype.forEach.call(elements, function(element){element.style.opacity='1';});
-  }
+  setTimeout(function() {
+  var elements = document.getElementsByClassName('react-slideshow-container');
+  Array.prototype.forEach.call(elements, function(element) {element.style.opacity='1';});
+  }, 100);
   return (
   
   <div className="startpage">
@@ -75,7 +73,6 @@ export default function Home() {
             </div>
           </Slide>
         </div>
-
     </Layout> 
   </div>   
   ) 
